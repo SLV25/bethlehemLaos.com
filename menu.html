@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 1rem;
+			}
+			@media (max-width:768px){
+				.grid{
+					grid-template-columns:repeat(1,1fr)
+				}
+			}
+			@media (max-width:200px){
+				.grid{
+					grid-template-columns:repeat(1,1fr)
+				}
+			}
+			@media (max-width:320px){
+				.grid{
+					grid-template-columns:repeat(1,1fr)
+				}
+			}
+		</style>
+	</head>
+</head>
+<body>
+	<header>
+		<center><h1>Bethlehem Bakery</h1></center>
+		<nav>
+			<ul>
+				
+				<li><a href="menu.html">Menu</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<center>
+			<div class="row01">
+				<div class="colum01">
+				  <img src="bread/naner02 (2).jpg" alt="Pizza" style="width:80%" class="image">
+				<p class="image-caption">Korean Pizza $10</p>
+				</div>
+				<div class="colum01">
+					<img src="bread/naner01(2).jpg" alt="Hotdog" style="width:80%" class="image">
+					<p class="image-caption">Korean Hotdog Bread $8</p>
+				  </div>
+				<div class="colum01">
+					<img src="bread/hotdogo1.jpg" alt="Pizza" style="width: 80%" class="image">
+					<p class="image-caption">Korean Pizza double cheese $13</p>
+				</div>
+			  </div>
+
+			  <div class="row01">
+				<div class="colum01">
+				  <img src="bread/bread08.jpg" alt="Pizza" style="width:80%" class="image">
+				<p class="image-caption">Korean Pizza $10</p>
+				</div>
+				<div class="colum01">
+					<img src="bread/bread09.jpg" alt="Hotdog" style="width:80%" class="image">
+					<p class="image-caption">Korean Hotdog Bread $8</p>
+				  </div>
+				<div class="colum01">
+					<img src="bread/bread10.jpg" alt="Pizza" style="width: 68%" class="image">
+					<p class="image-caption">Korean Pizza double cheese $13</p>
+				</div>
+			  </div>
+
+			  <div class="row01">
+				<div class="colum01">
+				  <img src="bread/bread01.jpg" alt="bread" style="width:80%" class="image">
+				<p class="image-caption">Korean bread $10</p>
+				</div>
+				<div class="colum01">
+					<img src="bread/bread02.jpg" alt="bread" style="width:80%" class="image">
+					<p class="image-caption">Korean sweet bread $8</p>
+				  </div>
+				<div class="colum01">
+					<img src="bread/bread03.jpg" alt="bread" style="width: 90%" class="image">
+					<p class="image-caption">Korean sweet bread double $13</p>
+				</div>
+			  </div>
+			</center>
+
+		<section class="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Delightful Bakery. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
+

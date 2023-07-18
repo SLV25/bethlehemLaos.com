@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bethlehem Bakery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 1rem;
+			}
+			@media (max-width:768px){
+				.grid{
+					grid-template-columns:repeat(1,1fr)
+				}
+			}
+			@media (max-width:200px){
+				.grid{
+					grid-template-columns:repeat(1,1fr)
+				}
+			}
+			@media (max-width:320px){
+				.grid{
+					grid-template-columns:repeat(1,1fr)
+				}
+			}
+		</style>
+	</head>
+</head>
+<body>
+	<header>
+		<center><h1>Bethlehem Bakery</h1></center>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="banner">
+			<h2>Welcome to Bethlehem Bakery</h2>
+			<p>Indulge in our freshly baked goods made with only the finest ingredients.</p>
+		</section>
+		<center>
+			<div class="row">
+				<div class="column">
+				  <img src="naner02 (2).jpg" alt="Pizza" style="width:80%">
+				</div>
+				<div class="column">
+					<img src="naner01(2).jpg" alt="Hotdog" style="width:80%">
+				  </div>
+				<div class="column">
+					<img src="hotdogo1.jpg" alt="Pizza" style="width: 80%">
+				</div>
+			  </div>
+			</center>
+		<section class="menu">
+			<h2>Our Menu</h2>
+			<ul>
+				<li>
+					<h3>Cakes</h3>
+					<p>Choose from a variety of delicious cakes, including chocolate, vanilla, and red velvet.</p>
+				</li>
+				<li>
+					<h3>Pastries</h3>
+					<p>Our pastries are made fresh daily and include croissants, danishes, and cinnamon rolls.</p>
+				</li>
+				<li>
+					<h3>Breads</h3>
+					<p>Our artisan breads are made with organic flour and baked in-house daily.</p>
+				</li>
+			</ul>
+		</section>
+
+		<section class="about">
+			<h2>About Us</h2>
+			<p>Delightful Bakery has been serving delicious baked goods to our community for over 20 years. We are committed to using only the finest ingredients and traditional baking methods to create our products.</p>
+		</section>
+
+		<section class="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Delightful Bakery. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Image Page</title>
+	<style>
+		/* Add any CSS styles for your image and content here */
+		.image {
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+		}
+		.image-caption {
+			font-style: italic;
+			font-size: 14px;
+			text-align: center;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<img src="my-image.jpg" alt="My Image" class="image">
+	<p class="image-caption">This is a description of my image.</p>
+	<script src="my-script.js"></script>
+</body>
+</html>
+
